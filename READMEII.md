@@ -18,3 +18,21 @@ curl.exe localhost:5000/user/johnsmith@gamil.com
 
 //Delete method
 curl.exe --request DELETE 'localhost:5000/user/johnsmith@gamil.com'
+
+Using Postman
+base url
+http://localhost:5000/
+
+set get in menu
+http://localhost:5000/user
+
+//returns the contents of the variable
+http://localhost:5000/user/johnsmith@gamil.com
+
+//tests post
+http://localhost:5000/user?firstName=Jon&lastName=Lovato&email=jonlovato@theworld.com&DOB=10/10/1995'
+
+//tests put
+localhost:5000/user/johnsmith@gamil.com?DOB=1/1/1971'
+
+

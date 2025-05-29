@@ -127,3 +127,31 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+*.next/
+
+# Local environment files
+.env
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# IDE/project files
+.idea/
+.vscode/
+
+# Optional: lockfiles if you don’t want to track them
+# package-lock.json
+# yarn.lock
